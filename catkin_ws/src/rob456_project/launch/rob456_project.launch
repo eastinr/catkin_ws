@@ -1,5 +1,5 @@
 <launch>
-
+	<param name="/use_sim_time" value="true" />
 	<!-- Launch world -->
 	<node pkg="stage_ros" type="stageros" name="simulator" args="$(find rob456_hw3)/worlds/manyDotsNoisyOdom.world"/>
  	
